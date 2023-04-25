@@ -1,0 +1,55 @@
+.background{
+    background-image: url("b4.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    overflow-x: hidden;
+}
+.player{
+    height: 200px;
+    margin-top:480px;
+    position: absolute;
+    margin-left:60px;
+}
+
+.body{
+    margin: 0px;
+}
+
+.block{
+    position: absolute;
+    background-image: url("flame.gif");
+    background-size: cover;
+    height: 80px;
+    width:60px;
+    margin-top: 590px;
+}
+.block2{
+    position: absolute;
+    background-image: url("bat.gif");
+    background-size: cover;
+    height: 80px;
+    width:80px ;
+    margin-top: 450px;
+}
+.ol1{
+   
+    font-size: 50px;
+    display:inline-flex;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+   
+    font-weight: bold;
+    margin-top: 50px;
+    width:300px;
+    height:60px;
+    margin-left: 1100px;
+    background-color: rgb(55, 21, 2);
+    position: absolute;
+    border-radius:30px;
+    
+}
